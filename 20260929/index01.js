@@ -80,3 +80,40 @@ for(초기화; 조건식; 단계) {
 //     }
 //     console.log(result);
 // }
+
+// 20260930
+// for ... in 문
+// let myInfo ={
+//     myName: 'gildong',
+//     myAge : 20,
+//     myAddr : '대전',
+//     myPhone : '010-1234-5678'
+// }
+// for (let info in myInfo) {
+//     console.log(`info: ${info}`);
+//     console.log(`${myInfo[info]}`);   // myInfo[myAddr]
+// }
+
+// for(초기값; 조건식; 단계)
+
+// while문
+// while(조건식) {
+//  반복실행문
+// }
+
+// 무한루프조심!!!!
+// let i = 1;
+// while(i < 11) {
+//     console.log(`i: ${i}`);     // 1 2 3 ... 10
+//     i++;
+// }
+
+// console.log(`i out: ${i}`);     // 11
+
+// do{ } while(조건식)문 : 최초1회는 무조건 시작하는 반복문
+// let j = 1;
+// do {
+//     console.log(`j: ${j}`);
+//     j++;
+// } while(j > 100);               // j: 1
+
