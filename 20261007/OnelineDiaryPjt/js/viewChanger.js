@@ -3,9 +3,9 @@ const VIEW_NO = {
     SIGN_IN_VIEW : 2,
     SIGN_OUT_VIEW : 3,
     DIARY_WRITE_VIEW : 4,
-    DIARY_LIST_VIEW : 5
+    DIARY_LIST_VIEW : 5,
+    HOME_VIEW : 6
 }
-
 
 let signUpWrap = '';
 let signInWrap = '';
@@ -57,6 +57,13 @@ const showSelectedView = (viewNo) => {
             signInWrap.style.display = 'none'
             writeWrap.style.display = 'none'
             listWrap.style.display = 'block'
+            break;
+            
+        case VIEW_NO.HOME_VIEW:
+            signUpWrap.style.display = 'none'
+            signInWrap.style.display = 'none'
+            writeWrap.style.display = 'none'
+            listWrap.style.display = 'none'
             break;
             
     }
